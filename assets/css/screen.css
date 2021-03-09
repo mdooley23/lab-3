@@ -16,19 +16,21 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video{
-	margin: 2;
+	margin: 0;
 	padding: 0;
 	border: 0;
+	background-color: #3a3b3c;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 	}
 
 	html {
-	   font-family: "Robot", sans-serif,monospace;
+	   font-family: "monospace", sans-serif,monospace;
 	   font-size: 1.125em; /* 18px / 16px = 1.125em */
 	   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
      text-align: justify;
+		 background-color: #7E7E7E;
 		 background-repeat: auto;
 	   background-size: cover;
 	   color: #FFFFFF;
@@ -38,17 +40,17 @@ time, mark, audio, video{
 h1{
 	display: block;
 	   text-decoration: none;
-	   background: transparent;
-	   background-image: linear-gradient(to bottom right,black, grey,white); /*gradient background*/
-	   text-align: center;
+	   background-image: linear-gradient(to bottom right, grey,silver); /*gradient background*/
+		 text-align: center;
 	   font-weight: 700;
-	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
-	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+	   font-size: 5em; /* 43.945px/18px = 2.441em */
+		 line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
 	   padding-top: 0.138em;
 	   padding-bottom: 0.138em;
 	   color: #FFFFFF;
 
 }
+
 h2{
 font-family: "monospace", sans-serif,monospace;
 text-align: center;
@@ -125,8 +127,8 @@ button:-moz-focusring,
 fieldset {
   border: 1px solid #c0c0c0;
 	width: 200px;
-  margin: auto;
-  background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+  margin: center;
+  background-image: linear-gradient(to bottom right,silver,grey); /*gradient background*/
 	text-align: left;
   padding: 0.35em 0.625em 0.75em;
 		color: #FFFFFF;
@@ -181,9 +183,10 @@ A
 }
 
 p{ border: 1px solid #c0c0c0;
+  background-image: #c0c0c0;
 	width: 200px;
   margin: 0 2px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 	padding: 0.35em 0.625em 0.75em;
 	padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   color: #FFFFFF;
