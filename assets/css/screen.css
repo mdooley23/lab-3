@@ -31,7 +31,7 @@ time, mark, audio, video{
 	   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
      text-align: justify;
 		 background-color: #7E7E7E;
-		 background-repeat: auto;
+		 background: auto;
 	   background-size: cover;
 	   color: #FFFFFF;
 	}
